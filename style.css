@@ -1,0 +1,1081 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Poppins:wght@200&family=Roboto+Mono:wght@200&family=Square+Peg&display=swap");
+/*  */
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans:ital@1&family=Poppins:wght@200&family=Roboto+Mono:wght@200&family=Satisfy&family=Square+Peg&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+body {
+   background-color: rgb(7, 14, 46);
+   font-family: "PT Sans", sans-serif;
+}
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+:root {
+   /* Font */
+   --large-font: 1.3rem;
+   --medium-font: 1rem;
+   --samll-font: 0.95rem;
+   --extra-small-font: 0.75rem;
+
+   /* Color */
+   --body-color: hsla(240, 55%, 91%, 1);
+   --button-color: hsla(250, 63%, 61%);
+   --button-active: rgb(139, 124, 212);
+   --card-color: hsl(0, 0%, 100%);
+}
+
+h1,
+h2,
+h3 {
+   font-size: var(--large-font);
+}
+.grid {
+   display: grid;
+   grid-template-columns: auto;
+}
+.button-1:hover,
+.button2 :hover {
+   background-color: var(--button-active);
+}
+.button-1 {
+   width: 6rem;
+   height: 2rem;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--button-color);
+   color: white;
+   border: none;
+   font-size: var(--extra-small-font);
+   font-style: italic;
+   cursor: pointer;
+   animation: animation-appear 2s forwards;
+}
+.birthday {
+   display: flex;
+   align-items: center;
+}
+.container {
+   position: absolute;
+   z-index: 99999;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+}
+
+.card__container {
+   width: 18rem;
+   height: 35rem;
+   background-color: white;
+   border-radius: 1.5rem;
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: relative;
+}
+
+.card_1 {
+   margin: 3rem 0rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   width: 100%;
+   animation: animation-appear 3s forwards;
+}
+
+.robot__cover {
+   width: 130px;
+   height: 149px;
+   margin-top: 2.5rem;
+   align-self: center;
+   text-align: center;
+}
+
+.i-roto {
+   margin-bottom: 3.5rem;
+   font-family: "Roboto Mono", monospace;
+   font-size: var(--samll-font);
+   line-height: 25px;
+}
+.robot__cover .material-symbols-outlined {
+   font-size: 150px;
+   margin-left: -10px;
+}
+.ill {
+   font-family: "PT Sans", sans-serif;
+   font-size: var(--medium-font);
+}
+
+.progress__bar-container {
+   width: 91.1%;
+   height: 0.4rem;
+   background-color: white;
+   position: absolute;
+   bottom: 0;
+   align-self: center;
+   border-radius: 0px 0px 5px 5px;
+}
+
+.progress__bar {
+   height: 100%;
+   width: 30%;
+   border-radius: 0px 5px;
+   background-color: hsl(0, 0%, 44%);
+   animation: progress-bar-animation 7s forwards;
+}
+/* ===========================CARD 2=================================== */
+
+.box__type1 {
+   width: 14.5rem;
+   height: 3.2rem;
+   border: 1px solid hsl(0, 0%, 44%);
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.can__i {
+   padding: 5px;
+}
+.card {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   animation: animation-appear 3s forwards;
+}
+.card-2 {
+   gap: 1rem;
+   justify-content: center;
+   align-content: center;
+}
+
+.button1-container {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+/* ==============================CARD 3========================== */
+.card-3 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+p {
+   text-align: center;
+}
+
+p .pcard3 {
+   margin-bottom: 1rem;
+}
+
+.sad-emoji {
+   width: 130px;
+   height: 130px;
+   margin-bottom: 2rem;
+}
+.oke .material-symbols-outlined {
+   line-height: 0;
+   font-size: 30px;
+}
+
+.ims {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.3rem;
+   margin-top: 1rem;
+}
+
+/* ============================CARD 4=============================== */
+
+.card-4 {
+   height: 100%;
+   width: 100%;
+   position: relative;
+   animation: animation-appear 3s forwards;
+}
+.header__card-4 {
+   width: 95%;
+   display: flex;
+   justify-content: flex-end;
+   gap: 0.2rem;
+   font-size: var(--extra-small-font);
+   padding-top: 10px;
+   padding-bottom: 30px;
+   animation: animation-dissapear 5s forwards;
+}
+
+.header__card-4 .material-symbols-outlined {
+   font-size: 20px;
+}
+
+.xx .material-symbols-outlined {
+   padding-top: 10px;
+   line-height: 0px;
+   font-size: 16px;
+}
+
+.write__here {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+}
+
+input {
+   outline: 0;
+   border-width: 0 0 1px 0;
+   text-align: center;
+}
+
+.garis__pemisah {
+   width: 95%;
+   height: 3px;
+   border: 1px solid grey;
+   margin: 30px auto;
+}
+.bungkus {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.dialog {
+   width: 85%;
+   display: flex;
+   font-size: var(--samll-font);
+   align-items: center;
+   justify-content: center;
+   align-self: center;
+   line-height: 1.1rem;
+   gap: 1rem;
+   animation: animation-appear 1.5s forwards;
+}
+
+.dialog p,
+.dialog4 {
+   text-align: left;
+}
+
+.dialog4 .roboto {
+   line-height: 30px;
+}
+
+.music-icon {
+   width: 100px;
+   height: auto;
+}
+.music {
+   margin-top: 4rem;
+   align-content: center;
+   justify-content: center;
+   gap: 0.3rem;
+   font-size: var(--extra-small-font);
+   cursor: pointer;
+   animation: animation-appear 2s forwards;
+}
+
+.next a {
+   display: flex;
+   position: absolute;
+   bottom: 10px;
+   right: 20px;
+   text-decoration: none;
+   cursor: pointer;
+}
+
+/* =========================CARD 5 =================================== */
+.card-5 {
+   display: flex;
+   flex-direction: column;
+   height: 97%;
+   justify-content: center;
+   align-items: center;
+   animation: animation-appear 3s forwards;
+   margin-top: 1.8rem;
+}
+.dialog-card-5 {
+   width: 95%;
+   padding: 0.7rem 0rem 0.7rem 1.5rem;
+}
+.dialog-card-5 .dialog {
+   margin-bottom: 0.4rem;
+}
+
+.expresi {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0.2rem;
+   gap: 1rem;
+   animation: animation-appear 3s forwards;
+}
+
+.expresi img {
+   width: 100px;
+   height: auto;
+}
+.button2 a {
+   text-decoration: none;
+   color: white;
+}
+/* ===================================CARD 6=========================== */
+.card-6 {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+
+.button__container {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   gap: 0.8rem;
+   align-items: center;
+   margin: 1rem;
+}
+
+.button2 {
+   width: 12rem;
+   height: 2rem;
+   border-radius: 8px;
+   background-color: var(--button-color);
+   border: none;
+   color: white;
+   cursor: pointer;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   gap: 0.3rem;
+}
+
+.dialog_1-card-6 {
+   margin-top: 1.3rem;
+}
+
+.expresi-card-6 .sad-emoji {
+   width: 90px;
+   height: auto;
+}
+
+.dd {
+   display: flex;
+   flex-direction: column;
+   gap: 1.2rem;
+   justify-content: center;
+   align-items: center;
+}
+
+.emojil {
+   width: 15px;
+   height: auto;
+   line-height: 12px;
+}
+
+.hilang {
+   display: none;
+}
+
+.dialog-card {
+   margin: auto;
+}
+
+/* =========================CARD-7=================== */
+.card-7 {
+   animation: animation-appear 2.5s forwards;
+}
+
+.bv {
+   animation: animation-appear 3s forwards;
+}
+
+/* ===================CARD-8 ====================== */
+.card1a {
+   width: 580px;
+   height: 330px;
+   position: absolute;
+   margin: auto;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   margin-left: -260px;
+   transition: 1s;
+}
+.card1a:hover {
+   transform: rotate(-5deg);
+}
+.card1a:hover .outside {
+   transform: rotateY(-130deg);
+}
+.outside,
+.inside {
+   height: 100%;
+   width: 50%;
+   position: absolute;
+   left: 50.1%;
+}
+.inside {
+   background: linear-gradient(to right, #e7e7e7, #ffffff 30%);
+   line-height: 3;
+   padding: 0 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   left: 50%;
+}
+.outside {
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   z-index: 1;
+   transform-origin: left;
+   transition: 2s;
+   cursor: pointer;
+}
+.front,
+.back {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+   transform: rotateX(0deg);
+}
+.front {
+   background-color: #ffffff;
+   width: 120%;
+}
+.back {
+   transform: rotateY(180deg);
+   background: linear-gradient(to left, #e7e7e7, #ffffff 30%);
+}
+.cake {
+   width: 100%;
+   position: absolute;
+   bottom: 30px;
+   margin: auto;
+}
+.top-layer,
+.middle-layer,
+.bottom-layer {
+   height: 50px;
+   width: 200px;
+   background-repeat: repeat;
+   background-size: 60px 100px;
+   background-position: 28px 0;
+   background-image: linear-gradient(
+         transparent 50px,
+         white 50px,
+         white 60px,
+         transparent 60px
+      ),
+      radial-gradient(
+         circle at 30px 5px,
+         var(--button-color) 30px,
+         var(--button-active) 31px
+      );
+   border-radius: 10px 10px 0 0;
+   position: relative;
+   margin: auto;
+}
+.middle-layer {
+   transform: scale(0.85);
+   top: 6px;
+}
+.top-layer {
+   transform: scale(0.7);
+   top: 26px;
+}
+.candle {
+   height: 25px;
+   width: 10px;
+   background: repeating-linear-gradient(
+      45deg,
+      #41b2f9 0,
+      #41b2f9 5px,
+      grey 5px,
+      #bcbcbc 10px
+   );
+}
+.fire {
+   height: 10px;
+   width: 10px;
+   margin-bottom: 2px;
+   background-color: #3c00ff;
+   border-radius: 0 50% 50% 50%;
+   transform: rotate(45deg);
+}
+.outside p {
+   font-size: 23px;
+   text-transform: uppercase;
+   margin-top: 30px;
+   text-align: center;
+   letter-spacing: 6px;
+   color: #000046;
+}
+.inside h1 {
+   font-size: 120px;
+   line-height: 120px;
+}
+
+/* Animation */
+
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=PT+Sans:ital@1&family=Poppins:wght@200&family=Roboto+Mono:wght@200&family=Satisfy&family=Square+Peg&display=swap");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Satisfy", cursive;
+}
+
+body {
+   overflow: hidden;
+}
+
+section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+
+   width: 100%;
+}
+
+section .box {
+   position: absolute;
+   width: 450px;
+   height: 450px;
+}
+.main {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(7, 14, 46);
+}
+section .box::before {
+   content: "";
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 50%;
+   top: 0;
+   background: linear-gradient(to right, #000, transparent);
+   opacity: 0.1;
+   transform: rotate(45deg);
+   transform-origin: left;
+   overflow: hidden;
+}
+section .box .circle {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(135deg, #fff, #e4e3e8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   z-index: 1;
+}
+
+section .box .circle::before {
+   content: "";
+   position: absolute;
+   top: 5px;
+   left: 5px;
+   bottom: 5px;
+   right: 5px;
+   border-radius: 50%;
+   background: linear-gradient(315deg, #fff, #e4e3e8);
+}
+
+section .box .circle h2 {
+   position: absolute;
+   z-index: 2;
+   font-size: 4em;
+   color: red;
+}
+
+.card__container .terompet  {
+   position: absolute;
+   
+   
+   z-index: 9999999999;
+  
+}
+
+.card__container .terompet:nth-child(even) {
+   background:url(Assets/gambar/ballon.png);
+   animation: animate 5s linear infinite;
+}
+
+.main .gelembung {
+   position: absolute;
+   
+   background: white;
+   border-radius: 50%;
+}
+
+.main .gelembung:nth-child(even) {
+   background: transparent;
+   border: 1px solid white;
+   border-radius: 100%;
+   animation: animate 5s linear infinite;
+}
+
+/* card8 */
+
+.card-8 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+
+.jarjit img{
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   animation: animation-appear 3s forwards;
+}
+
+.jarjit p.satu{
+   margin-top: 15px;
+   line-height: 45px;
+   font-size: 30px;
+   animation: animation-appear 3s forwards;
+}
+.card-8 p {
+   font-size: 25px;
+   line-height: 90px;
+   position: relative;
+
+}
+.cakes {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+}
+.tas {
+   animation: animation-appear 2s forwards ;
+}
+.layer1 {
+   width: 3rem;
+   height: 2rem;
+   back
+   background-repeat: repeat;
+   background-size: 60px 50px;
+   background-position: 28px 0;
+   background-image: linear-gradient(
+         transparent 50px,
+         white 50px,
+         white 60px,
+         transparent 60px
+      ),
+      radial-gradient(
+         circle at 30px 10px,
+         var(--button-color) 30px,
+         var(--button-active) 31px
+      );
+}
+
+.layer2 {
+   width: 5rem;
+   height: 2.5rem;
+   background-color: #41b2f9;
+   background-repeat: repeat;
+   background-size: 60px 100px;
+   background-position: 28px 0;
+   background-image: linear-gradient(
+         transparent 50px,
+         white 50px,
+         white 60px,
+         transparent 60px
+      ),
+      radial-gradient(
+         circle at 30px 5px,
+         var(--button-color) 30px,
+         var(--button-active) 31px
+      );
+}
+
+.layer3 {
+   width: 7rem;
+   height: 2.5rem;
+   background-color: #41b2f9;
+   background-repeat: repeat;
+   background-size: 60px 100px;
+   background-position: 28px 0;
+   background-image: linear-gradient(
+         transparent 50px,
+         white 50px,
+         white 60px,
+         transparent 60px
+      ),
+      radial-gradient(
+         circle at 30px 5px,
+         var(--button-color) 30px,
+         var(--button-active) 31px
+      );
+}
+
+
+
+@keyframes animate {
+   0% {
+      transform: translateY(0);
+      opacity: 0;
+   }
+
+   10% {
+      opacity: 1;
+   }
+
+   90% {
+      opacity: 1;
+   }
+
+   100% {
+      transform: translateY(-2000%);
+      opacity: 0;
+   }
+}
+
+/* Progressbar */
+@keyframes progress-bar-animation {
+   0% {
+      width: 0%;
+   }
+   100% {
+      width: 100%;
+   }
+}
+
+@keyframes animation-appear {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity: 1;
+   }
+}
+
+@keyframes animation-dissapear {
+   0% {
+      opacity: 1;
+   }
+
+   100% {
+      opacity: 0;
+   }
+}
+
+/* ====================Media============================== */
+
+@media screen and (max-width: 308px) {
+   .card__container {
+      width: 80%;
+      height: 70%;
+   }
+
+   .container {
+      height: 35rem;
+      width: 18rem;
+   }
+   .ppp {
+      position: absolute;
+      bottom: 20px;
+   }
+
+   .front p {
+      font-family: "Kaushan Script", cursive;
+      font-size: 16px;
+   }
+   .cake {
+      width: 100%;
+      position: absolute;
+      bottom: 80px;
+      margin: auto;
+   }
+
+   .box__type1 {
+      width: 12rem;
+      height: 3.2rem;
+   }
+
+   .card-2 .box__type1 {
+      width: 11rem;
+      height: 2.5rem;
+   }
+
+   .container {
+      font-size: var(--samll-font);
+   }
+   .button-1 {
+      width: 3.5rem;
+      height: 1.5rem;
+      font-size: 10px;
+   }
+
+   .can__i {
+      font-size: 12px;
+   }
+
+   .dialog {
+      font-size: 12.5px;
+   }
+
+   .dialog-card-5 {
+      padding: 0.3rem 0rem 0.3rem 1.5rem;
+   }
+
+   .card-5 {
+      margin-top: 3rem;
+   }
+
+   .music {
+      margin-top: 1.5rem;
+   }
+
+   .music p {
+      font-size: 10px;
+   }
+
+   .music-icon {
+      width: 80px;
+      height: auto;
+   }
+
+   a .material-symbols-outlined {
+      font-size: 15px;
+   }
+
+   a {
+      font-size: 12px;
+   }
+
+   .write__here .box__type1 {
+      height: 2.9rem;
+      line-height: 10px;
+   }
+
+   .xx .material-symbols-outlined {
+      font-size: 10px;
+   }
+
+   .button2 {
+      font-size: 10px;
+      width: 10rem;
+      height: 1.5rem;
+   }
+
+   .expresi .sad-emoji {
+      width: 90px;
+   }
+
+   .expresi p {
+      font-size: 12px;
+   }
+   .robot__cover .material-symbols-outlined {
+      font-size: 125px;
+   }
+
+   .i-roto {
+      font-size: 13px;
+   }
+
+   .ill {
+      font-size: 13px;
+   }
+
+   .card {
+      gap: 0.5rem;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   section .box {
+      width: 280px;
+      height: 280px;
+      margin-left: -20px;
+   }
+   .ppp {
+      position: absolute;
+      bottom: 20px;
+   }
+
+   .front p {
+      font-family: "Kaushan Script", cursive;
+      font-size: 16px;
+   }
+   .cake {
+      width: 100%;
+      position: absolute;
+      bottom: 80px;
+      margin: auto;
+   }
+
+   .card__container {
+      width: 14rem;
+      height: 30rem;
+   }
+}
+
+@media screen and (min-width: 576px) {
+   section .box {
+      width: 300px;
+      height: 300px;
+      margin-left: -20px;
+   }
+
+   .card__container {
+      width: 23rem;
+      height: 45rem;
+   }
+
+   .container {
+      font-size: 19px;
+   }
+
+   .box__type1 {
+      width: 18rem;
+      height: 4rem;
+   }
+
+   .input__card4 {
+      font-size: 18px;
+   }
+
+   .xx {
+      margin-top: 12px;
+      font-size: 18px;
+   }
+   .xx {
+      font-size: 20px;
+      line-height: 30px;
+   }
+
+   .music-icon {
+      width: 150px;
+      height: auto;
+   }
+
+   .card-4 {
+      margin-top: 30px;
+   }
+
+   .music p {
+      font-size: 15px;
+   }
+
+   .button-1 {
+      width: 8rem;
+      height: 2.5rem;
+      font-size: 16px;
+   }
+
+   .button2 {
+      width: 14rem;
+      height: 2.3rem;
+      font-size: 15px;
+   }
+
+   .robot__cover .material-symbols-outlined {
+      font-size: 180px;
+      margin-left: -18px;
+   }
+
+   .i-roto {
+      margin-top: 25px;
+      font-size: 20px;
+   }
+
+   .hello1 {
+      font-size: 30px;
+   }
+
+   .ill {
+      font-size: 20px;
+   }
+
+   .dialog .material-symbols-outlined {
+      font-size: 32px;
+   }
+}
+
+@media screen and (min-width: 776px) {
+   section .box {
+      width: 350px;
+      height: 350px;
+      margin-left: -10px;
+   }
+}
+
+@media screen and (min-width: 992px) {
+   section .box {
+      width: 450px;
+      height: 450px;
+      margin-left: -10px;
+   }
+}
+
+.card-8 p {
+   font-family: "Satisfy", cursive;
+}
+
+.card-8 .ssatu, 
+.card-8 .ddua, 
+.card-8 .tiga, 
+.card-8 .empat,
+.card-8 .lima {
+   font-family: cursive;
+   line-height: 39px;
+   font-size: 1rem;
+   animation: animation-appear 3s forwards;
+}
+
+
+.rose {
+   width: 150px;
+   height: auto;
+   animation: animation-appear 4s forwards;
+   margin-top: 1rem;
+}
+
+.kartu-1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}

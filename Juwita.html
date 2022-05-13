@@ -1,0 +1,382 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Hello Juwita</title>
+      <link rel="stylesheet" href="style.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+      />
+   </head>
+   <body>
+      <div class="main">
+         <div class="container">
+            <audio
+               id="audios"
+               src="Assets/musik/voice1.mp3"
+               muted="muted"
+            ></audio>
+            <div class="card__container">
+               <div class="progress__bar-container">
+                  <div class="progress__bar hilang"></div>
+               </div>
+
+               <div class="card-0 card">
+                  <div
+                     class="button-1 button1-card0"
+                     style="text-align: center"
+                  >
+                     Start
+                  </div>
+               </div>
+
+               <div class="card_1 hilang" id="card1">
+                  <h1 class="hello1">Hello !!!</h1>
+
+                  <div class="robot__cover">
+                     <i class="material-symbols-outlined"> smart_toy </i>
+                  </div>
+
+                  <h3 class="i-roto">
+                     I'm Rotto <br />
+                     Robot Created By Rio
+                  </h3>
+
+                  <p class="ill">"I'll help you to know <br />each other"</p>
+               </div>
+
+               <!-- =========== AKHIR CARD 1================ -->
+
+               <!-- =========== AWAL CARD 2================ -->
+
+               <div class="card card-2 grid hilang">
+                  <div class="box__type1">
+                     <i class="material-symbols-outlined"> smart_toy </i>
+                     <span class="can__i">Can I Know You ?</span>
+                  </div>
+
+                  <div class="button1-container">
+                     <button class="button button-1 bc hilang">Yes</button>
+                     <button class="button button-1 bc hilang">No</button>
+                  </div>
+               </div>
+               <!-- =========== AKHIR CARD 2================ -->
+
+               <!-- =========== AWAL CARD 3================ -->
+               <div class="card-3 card hilang">
+                  <span class="sad-emoji">
+                     <img
+                        class="sad-emoji"
+                        src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/sad.png"
+                        alt=""
+                  /></span>
+
+                  <div class="sorry">
+                     <p class="pcard-3">
+                        Maybe I'll sad now <br />
+                        You can text to me by DM
+                     </p>
+                     <div class="ims">
+                        <i class="material-symbols-outlined"> send </i>
+                        <p class="oke">No, I'm sorry</p>
+                     </div>
+                  </div>
+               </div>
+               <!-- =========== AKHIR CARD 3================ -->
+               <!-- =========== AWAL CARD 4================ -->
+
+               <div class="card-4 hilang">
+                  <div class="header__card-4">
+                     <p class="pcard-4">Automaticly Translate to Bahasa</p>
+                     <span class="material-symbols-outlined">
+                        g_translate
+                     </span>
+                  </div>
+
+                  <div class="write__here">
+                     <div class="box__type1">
+                        <i class="material-symbols-outlined"> smart_toy </i>
+                        <span class="can__i">Siapa nama panggilanmu?</span>
+                     </div>
+
+                     <form onsubmit="event.preventDefault()" action="">
+                        <input
+                           oninput="kTombol()"
+                           class="input__card4"
+                           type="text"
+                           placeholder="Write here..."
+                        />
+                     </form>
+                     <button class="button-1 uuk hilang">Next</button>
+                  </div>
+
+                  <div class="garis__pemisah"></div>
+                  <div class="bungkus hilang">
+                     <div class="dialog dialogcard4">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx" id="XA">
+                           Hello ang, nama yang indah. Sepertinya aku punya lagu
+                           <span
+                              ><i class="material-symbols-outlined">
+                                 music_note
+                              </i></span
+                           >
+                           Untukmu
+                           <span class="material-symbols-outlined"> mood </span>
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="music grid hilang" id="play">
+                     <img
+                        class="music-icon"
+                        src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/play.png"
+                        alt=""
+                     />
+                     <p>Click to play</p>
+                  </div>
+
+                  <div class="music grid hilang" id="stop">
+                     <img
+                        class="music-icon"
+                        src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/pause.png"
+                        alt=""
+                     />
+                     <p>Click to stop</p>
+                  </div>
+
+                  <div class="next hilang">
+                     <a class="a" href="">
+                        <i class="material-symbols-outlined"> arrow_forward </i>
+                        <p>Next</p>
+                     </a>
+                  </div>
+               </div>
+
+               <!-- =========== AKHIR CARD 4================ -->
+
+               <!-- =========== AWAL CARD 5================ -->
+               <div class="card-5 hilang">
+                  <div class="dialog-card-5 dialog_1-card-5">
+                     <div class="dialog">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx">
+                           Juwita, Bolehkah aku memberimu sebuah ramalan ?
+                        </p>
+                     </div>
+
+                     <div class="button1-container button__dialog-1-card-5">
+                        <button class="button button-1 buttoncard5 hilang">
+                           Yes
+                        </button>
+                        <button class="button button-1 buttoncard5 hilang">
+                           No
+                        </button>
+                     </div>
+                  </div>
+
+                  <div class="dialog-card-5 dialog_2-card-5 hilang">
+                     <div class="dialog">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx">
+                           Aku ramal kamu lahir di bulan Mei
+                           <i class="material-symbols-outlined"> mood </i>
+                        </p>
+                     </div>
+
+                     <div class="button1-container button__dialog-1-card-5">
+                        <button class="button button-1 buttoncard5 hilang">
+                           Yes
+                        </button>
+                        <button class="button button-1 buttoncard5 hilang">
+                           No
+                        </button>
+                     </div>
+                  </div>
+
+                  <div class="dialog-card-5 dialog_3-card-5 hilang">
+                     <div class="dialog">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx">
+                           Wahh ternyata kamu & Rio terlahir dibulan yang sama
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="dialog-card-5 expresi hilang">
+                     <p>Pertanda apakah ini ....</p>
+                     <span class="sad-emoji">
+                        <img
+                           class="sad-emoji"
+                           src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/ketawa.png"
+                           alt=""
+                     /></span>
+                  </div>
+
+                  <div class="yahh hilang">
+                     <h1>YAHHHHHH</h1>
+                     <img
+                        src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/sad.png"
+                        alt=""
+                     />
+                  </div>
+               </div>
+               <!-- =========== AKHIR CARD 5================ -->
+
+               <!-- =========== AWAL CARD 6================ -->
+               <div class="card-6 hilang">
+                  <div class="dialog_1-card-6">
+                     <div class="dialog dialog-card">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx">
+                           Juwita, manakah dibawah ini yang merupakan hobimu ?
+                        </p>
+                     </div>
+                     <div class="button__container bv hilang">
+                        <button class="button2">Travelling</button>
+
+                        <button class="button2">Memasak</button>
+
+                        <button class="button2">Kayang</button>
+
+                        <button class="button2">Menulis</button>
+
+                        <button class="button2">Nonton Film</button>
+                     </div>
+
+                     <div class="dialog dialog-card6 dialog-card hilang">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx">
+                           Istri idaman nihh.. Oiya kalau masak dikit aja
+                           gulanya, kamu udah manis soalnya
+                        </p>
+                     </div>
+                  </div>
+                  <div class="expresi-card-6 hilang">
+                     <span class="sad-emoji">
+                        <img
+                           class="sad-emoji"
+                           src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/sad.png"
+                           alt=""
+                        />
+                     </span>
+                  </div>
+               </div>
+
+               <!-- =========== AKHIR CARD 6================ -->
+
+               <!-- =========== AWAL CARD 7================ -->
+               <div class="card card-7 hilang">
+                  <div class="dialog_1-card-7 dd">
+                     <div class="dialog">
+                        <i class="material-symbols-outlined roboto">
+                           smart_toy
+                        </i>
+                        <p class="xx">
+                           Kalo si Rio hobinya apa yaa.. Roboto denger dia lagi
+                           hobi mikirin kamu sekarang.
+                        </p>
+                     </div>
+
+                     <p>
+                        xixixixi canda
+                        <img
+                           class="emojil"
+                           src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/laughing.png"
+                           alt=""
+                        />
+                     </p>
+
+                     <button class="button2 z hilang">
+                        <div class="div">Hobi Rio</div>
+                        <i class="material-symbols-outlined roboto">
+                           arrow_forward
+                        </i>
+                     </button>
+                  </div>
+
+                  <div class="dialog_2-card-7 dd hilang">
+                     <button class="button2 z">
+                        <div>Last Page</div>
+
+                        <i class="material-symbols-outlined roboto">
+                           arrow_forward
+                        </i>
+                     </button>
+                  </div>
+               </div>
+
+               <!-- =========== AKHIR CARD 7================ -->
+
+               <!-- =========== AWAL CARD 8================ -->
+               <div class="card-8">
+                  <div class="jarjit hilang">
+                     <img src="Assets/gambar/jarjit.gif" alt="" />
+                     <p class="satu hilang">
+                        Dua, Tiga <br />
+                        Kambing Berlari
+                     </p>
+                  </div>
+
+                  <div class="tas hilang">
+                     <p>Happ Birthday</p>
+                     <div class="cakes">
+                        <div class="fire"></div>
+                        <div class="candle"></div>
+                        <div class="layer1"></div>
+                        <div class="layer2"></div>
+                        <div class="layer3"></div>
+                     </div>
+                     <p>Juwita Mei</p>
+                  </div>
+
+                  <div class="kartu-1">
+                     <p class="ssatu hilang">I'm so sorry being late.</p>
+                     <p class="ddua hilang">Maybe I dont know you so much.</p>
+                     <p class="tiga hilang">But.. My Mama always said</p>
+                     <p class="empat hilang">
+                        "Life is like a box of chocolate, <br />
+                        you never know what you get"
+                     </p>
+                     <p class="lima hilang">So.. Enjoy your life & be Happy</p>
+
+                     <img
+                        class="rose hilang"
+                        src="https://raw.githubusercontent.com/rioperdanad/rioperdanad.github.io/main/Assets/gambar/rose.png"
+                        alt=""
+                     />
+                  </div>
+               </div>
+               <!-- =========== AKHIR CARD 8================ -->
+            </div>
+         </div>
+      </div>
+
+      <section class="hilang">
+         <div class="box">
+            <div class="circle">
+               <h2>
+                  Happy <br />
+                  Birthday
+               </h2>
+            </div>
+         </div>
+      </section>
+
+      <script src="index.js"></script>
+   </body>
+</html>
